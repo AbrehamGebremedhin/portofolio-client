@@ -186,7 +186,12 @@ const AdminDashboard = () => {
             <Card>
               <CardMedia
                 component="img"
-                height="200"
+                sx={{ 
+                  width: '100%',
+                  height: '263px',
+                  objectFit: 'contain',
+                  backgroundColor: 'rgba(0, 0, 0, 0.03)'
+                }}
                 image={project.images[0]?.url || '/placeholder.jpg'}
                 alt={project.name}
               />
