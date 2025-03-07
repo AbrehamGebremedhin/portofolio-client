@@ -1,3 +1,3 @@
 import axios from 'axios';
 
-axios.defaults.baseURL = 'https://portofolio-site-jet.vercel.app';
+axios.defaults.baseURL = 'https://portofolio-site-l7rt.onrender.com';
